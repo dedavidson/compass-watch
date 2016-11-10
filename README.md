@@ -40,10 +40,10 @@ _config.rb file_:
     # Obviously
     preferred_syntax = :scss
 
-### Manual Compilation_
+### Manual CSS Compilation
     docker run -v $(pwd):/src dedavidson/compass-watch compile /src/some-folder/another-folder --force
 
-### Watching for Changes_
+### Watching for sass Changes
 
 #### Using _docker run_
     docker run -d -v /src:/src dedavidson/compass-watch watch --poll /src/compass
