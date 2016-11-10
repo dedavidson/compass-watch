@@ -40,6 +40,8 @@ _config.rb file_:
     # Obviously
     preferred_syntax = :scss
 
+Note I was unable to get additional compass plugins to load so I have baked in the ones I required to the Dockerfile
+
 ### Manual CSS Compilation
     docker run -v $(pwd):/src dedavidson/compass-watch compile /src/some-folder/another-folder --force
 
